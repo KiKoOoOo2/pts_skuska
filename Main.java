@@ -31,9 +31,9 @@ public class Main {
             Thread.sleep(200);
             driver.findElement(By.id("login")).click();
             Thread.sleep(200);
-            driver.findElement(By.id("login")).sendKeys("182310"); //zadanie loginu
+            driver.findElement(By.id("login")).sendKeys("XXXXXX"); //zadanie loginu
             Thread.sleep(200);
-            driver.findElement(By.id("heslo")).sendKeys("9702022737"); //zadanie hesla
+            driver.findElement(By.id("heslo")).sendKeys("YYYYYYYYYYY"); //zadanie hesla
             Thread.sleep(200);
             driver.findElement(By.id("login-form-submit-btn")).click(); //kliknutie na prihlásenie
             Thread.sleep(1500);
